@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Cina Flix</title>
+    </head>
+<body>
+
+  <header>
+    <!-- Logo dan Search Bar -->
+    <div class="wrapper-logo">
+      <div class="logo">
+        <a href="#first">
+            <span class="logo__1">Cina</span>
+            <span class="logo__2">Flix</span>
+        </a>
+        <!-- Search bar tidak berfungsi -->
+        <div class="search">
+          <input type="text" class="form-control" placeholder="Search here...">
+          <button class="btn btn-dark"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Nagigasi -->
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <nav>
+        <ul class="nav__ul">
+            <li><button><a href="#first">Home</a></button></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#footer">About Us</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <!-- Container main -->
+  <main class="container">
+    <!-- Pembungkus carousel -->
+    <div class="wrap-carousel">
+      <!-- Teks Pembuka -->
+      <div  class="wrap-h1">
+        <span><i class="fa-solid fa-minus fa-rotate-90"></i></span>
+        <h1>On Cinema</h1>
+      </div>
+        <!-- Carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide w-75 m-auto mb-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <!-- Carousel content 1 -->
+          <div class="carousel-item active">
+            <img src="https://pifa.co.id/img_berita/1693382609.webp" class="d-block w-100 br-30" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>His Only Son</h5>
+              <p>2023 ‧ Drama/Drama ‧ 1 j 45 m</p>
+              <p><i class="fa-solid fa-star fa-fade" style="color: #ffea00;"></i> 5/5</p>
+            </div>
+          </div>
+          <!-- Carousel content 2 -->
+          <div class="carousel-item">
+            <img src="https://hypeabis.id/assets/content/20230831191556000000petualangansherin2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Petualangan Sherina 2</h5>
+              <p>2023 ‧ Drama/Laga ‧ 2 j 6 m</p>
+              <p><i class="fa-solid fa-star fa-fade" style="color: #ffea00;"></i> 4.5/5</p>
+            </div>
+          </div>
+          <!-- Carousel content 3 -->
+          <div class="carousel-item">
+            <img src="https://linggaupos.disway.id/upload/4ab7766e365c28464a054e288b22118c.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Diambang Kematian</h5>
+              <p>2023 ‧ Horor/Cerita seru ‧ 1 j 37 m</p>
+              <p><i class="fa-solid fa-star fa-fade" style="color: #ffea00;"></i> 4.5/5</p>
+            </div>
+          </div>
+          <!-- Carousel content 4 -->
+          <div class="carousel-item">
+            <img src="https://idseducation.com/wp-content/uploads/2022/07/the-marvels2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Marvels</h5>
+              <p>2023 ‧ Petualangan/Laga ‧ 1 j 45 m</p>
+              <p><i class="fa-solid fa-star fa-fade" style="color: #ffea00;"></i> 4/5</p>
+            </div>
+          </div>
+          <!-- Carousel content 5 -->
+          <div class="carousel-item">
+            <img src="https://dx35vtwkllhj9.cloudfront.net/universalstudios/five-nights-at-freddys/images/regions/us/header.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Five Nights at Freddy's</h5>
+              <p>2023 ‧ Horor/Adaptasi ‧ 1 j 49 m</p>
+              <p><i class="fa-solid fa-star fa-fade" style="color: #ffea00;"></i> 4.5/5</p>
+            </div>
+        </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Bagian Satu -->
+    <div id="first" class="wrap-h1">
+      <span><i class="fa-solid fa-minus fa-rotate-90"></i></span>
+      <h1>Featured Today</h1>
+    </div>
+      <!-- Pembungkus Card -->
+      <div class="wrap-card">
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="https://image.tmdb.org/t/p/w342//hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Attack On Titan</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BYTY0YTgwZjUtYzJiNy00ZDQ2LWFlZmItZThhMjExMjI5YWQ2XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>LOKI</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BM2ZjZWUyMDUtNDNjMS00YzMzLWJiNjMtMDZhMzRiNmJjOTQ1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Fingernails</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://cdn.teater.co/imgs/barbie-2023-1_350_513.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Barbie</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/id/4/4a/Oppenheimer_%28film%29.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Oppenheimer</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/ThePopesExorcistPoster.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>The Popes Exorcist</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BYzFiZjc1YzctMDY3Zi00NGE5LTlmNWEtN2Q3OWFjYjY1NGM2XkEyXkFqcGdeQXVyMTUyMTUzNjQ0._V1_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Mission: Imposible</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://lumiere-a.akamaihd.net/v1/images/p_ahauntinginvenice_1890_v2_4ae663c2.jpeg?region=0%2C0%2C540%2C810" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Haunting in Venice</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+        <!-- Card 2 -->
+        <div class="wrap-h1">
+          <span><i class="fa-solid fa-minus fa-rotate-90"></i></span>
+          <h1>Marvel Collection</h1>
+        </div>
+        <div class="wrap-card">    
+          <div class="card">
+            <img src="https://bacaterus.com/wp-content/uploads/2022/05/Avengers-Endgame_.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Avanger: Endgame</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/id/1/1b/Avengers_Age_of_Ultron.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Avangers: Age Of Ultron</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Avangers: Infinity War</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Thor Ragnarok</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/id/thumb/c/c7/Doctor_Strange_poster.jpg/220px-Doctor_Strange_poster.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Doctor Strange</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/id/2/20/Poster_Spider-Man_No_Way_Home.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Spider-Man: No Way Home</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Black Panther</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/id/d/d8/AntManAndTheWaspPoster2018.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Ant-Man and The Wasp</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="wrap-h1">
+          <span><i class="fa-solid fa-minus fa-rotate-90"></i></span>
+          <h1>Oscar Nominated Movies</h1>
+        </div>
+        <div class="wrap-card">    
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTA2NDc3Njg5NDVeQTJeQWpwZ15BbWU4MDc1NDcxNTUz._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Bohemian Rhapsody</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BZjcwZjY3NjAtNzkxZS00NmFjLTg1OGYtODJmMThhY2UwMTc5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Don't Look Up</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://lsf.go.id/wp-content/uploads/2022/04/top_gunmaverick_sensor_page-0001.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Top Gun Maverick</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Parasite</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BY2FmNjZmNzgtZGM3MC00ZjIxLTliMTItMjlmMDY1MmNlZmQ3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Marriage Story</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://play-lh.googleusercontent.com/KgAP6KDRP_-fi0raeUNs8craXZZGauzbjiHcHRQA9zihF7dtbPcM0A_V6mNY36mZdtP0RpiE1hOm7cf0yA" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Joker</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BZWQ3MjBjN2MtMjIxYS00MjBlLWFmYTktN2RlZmVkMWUzYTYwXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>The Father</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/id/1/1e/Everything_Everywhere_All_at_Once.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Everything Everywhere All at Once</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="wrap-h1">
+          <span><i class="fa-solid fa-minus fa-rotate-90"></i></span>
+          <h1>Indonesia Movies</h1>
+        </div>
+        <div class="wrap-card">    
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/id/2/20/Cek_Toko_Sebelah.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Cek Toko Sebelah</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BN2MwM2I4OTUtZjNiZi00MzAwLTlmYTMtYjczNTRiZDdmNWM3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>The Big 4</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/id/3/3c/JJJLP_Poster.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Jalan yang Jauh Jangan Lupa Pulang</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BNWZmOTIzOGMtODBmMC00MjVlLThjYzUtNjcxNjg4NzY0YTg1XkEyXkFqcGdeQXVyNzEzNjU1NDg@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Mencuri Raden Saleh</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BYzM0NmQ2YzgtZWZkNC00N2JhLThjYzUtMDNlZDczMzJiMGY1XkEyXkFqcGdeQXVyNzkzODk2Mzc@._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Dilan 1990</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://thumbor.prod.vidiocdn.com/VOXClGW3MPC5D08l1MjKtUSg4nk=/filters:quality(70)/vidio-web-prod-film/uploads/film/image_portrait/2472/dua-garis-biru-dab5cc.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Dua Garis Biru</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTgwMmQ2ZDAtODFiZC00NWZkLTg4OGYtOGNlYzNmYjMwNTQyXkEyXkFqcGdeQXVyNzEzNjU1NDg@._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>Ben & Jody</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjBjM2Y5YWEtNTgyMi00MzcwLThkYTctYzZmY2FkNjZjZTRjXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span>
+                <p>KKN Di Desa Penari</p>
+                <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+      <!-- Card 4 -->
+      <div class="wrap-h1">
+        <span><i class="fa-solid fa-minus fa-rotate-90"></i></span>
+        <h1>Anime</h1>
+      </div>
+      <div class="wrap-card">    
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BZGFiMWFhNDAtMzUyZS00NmQ2LTljNDYtMmZjNTc5MDUxMzViXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Naruto: Shippuden</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BN2FlYjYxMTMtZGQzYy00OWU2LTkyYWMtNWJhODhmZmM0N2FhXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Black Clover</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BNGU4YzAxOTQtOTk5Yi00MGI3LThiMDMtMzZhMmEwNDBlN2E3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>One Piece</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BNjkyNDI2MTgtN2Y3NS00M2RjLWJhNDMtMmNmZmUwMDQwZTE1XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Haikyu!!</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Spirited Away</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BODI2NjdlYWItMTE1ZC00YzI2LTlhZGQtNzE3NzA4MWM0ODYzXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Demon Slayer</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BOTJjOTRmMzctMDUwYS00MjExLWJlMGQtZjlmNjI3OTAxNzZiXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Captain Tsubasa</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/id/7/74/Dragon_Ball_Super_Key_visual.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>
+              <p>Dragon Ball</p>
+              <p><i class="fa-solid fa-star" style="color: #ffc800;"></i>5/5</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+  </main>
+
+  <footer id="footer" class="container-fluid m-0">
+    <div class="wrap-footer">
+        <div class="footer-1">
+          <h2>About Us</h2>
+          <p>Made with love by Christian and Fico</p>
+        </div>
+        <div class="footer-2">
+          <a href="">
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-imdb" style="color: #ffffff;"></i>
+          </a>
+          <a href="">
+            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copyCopyright 2023. Cina Flix</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/8b0b03f283.js" crossorigin="anonymous"></script>
+  </body>
+</html>
